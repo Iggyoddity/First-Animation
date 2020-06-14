@@ -1,4 +1,4 @@
-var xPos =300;
+ var xPos =300;
 var yPos = 200;
 var x = 100;
 var y = 97;
@@ -21,4 +21,4 @@ draw = function() {
     xPos+=10;
     yPos+=10;
     
-    x-=10;
+    x-=10; 
