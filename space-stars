@@ -1,0 +1,24 @@
+var xPos =300;
+var yPos = 200;
+var x = 100;
+var y = 97;
+
+draw = function() {
+    background(0, 0, 0);
+    arc(200,210,201,207,100,100);
+    fill(235, 73, 73);//planet fill
+    ellipse(79,250,300,300);//planet
+    fill(0, 225, 255);//planet ring fill
+    arc(171,262,400,19,200,300);//planet ring
+    fill(255, 163, 3,200);//sun fill
+    ellipse(300,100,100,100);//sun
+    noStroke();
+    fill(235, 215, 0);//star fill 
+
+    rect(xPos,yPos,6,1,-20);//star 
+    rect(x,y,6,1,-20);//star 
+    
+    xPos+=10;
+    yPos+=10;
+    
+    x-=10;
